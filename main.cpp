@@ -1,3 +1,5 @@
+/* The following piece of software was coded by: Alvaro Solari */ 
+
 #include <iostream>
 #include <sstream> 
 #include <vector> 
@@ -15,9 +17,6 @@ void fillVector(std::string myString, std::vector<int> &myVector){
 
 int main() {
     
-    //int baseLocations[6] = {1200, 1700, 2550, 3220, 4225, 6450}; 
-    //int displacementSize[6] = {100, 300, 50, 200, 150, 250}; 
-    //int processSize[8] = {40, 150, 50, 200, 50, 20, 10, 150};
     std::string userLine = ""; 
     std::vector<int> baseLocations;
     std::vector<int> displacementSizes; 
