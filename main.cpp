@@ -1,7 +1,5 @@
-/* The following piece of software was coded by: Alvaro Solari */ 
-
 #include <iostream>
-#include <sstream> 
+#include <sstream>
 #include <vector> 
 
 void fillVector(std::string myString, std::vector<int> &myVector){
@@ -107,14 +105,14 @@ int main() {
         }
         
         std::cout << "Current slot map: " << std::endl; 
-        for (int anotherCounter = 0; anotherCounter < 6; anotherCounter++){
+        for (int anotherCounter = 0; anotherCounter < numberOfBlocks; anotherCounter++){
             if (displacementSizes[anotherCounter] == 0){
                 continue;
             }
             std::cout << baseLocations[anotherCounter] << "\t"; 
         }
         std::cout << std::endl; 
-        for (int anotherCounter = 0; anotherCounter < 6; anotherCounter++){
+        for (int anotherCounter = 0; anotherCounter < numberOfBlocks; anotherCounter++){
             if (displacementSizes[anotherCounter] == 0){
                 continue; 
             }
